@@ -1,0 +1,12 @@
+import React from "react";
+
+function BigcountNumber({count}){
+    return(
+    <p>
+        <span className="prefix">Count:</span>
+        {count}
+    </p>
+    )
+} 
+
+export default BigcountNumber

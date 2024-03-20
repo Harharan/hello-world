@@ -1,0 +1,27 @@
+import React from "react";
+import { useState } from "react";
+// import BigcountNumber from "./BigCountNumber";
+
+// function Counter()
+
+// {
+//  const [count,setcount] = React.useState(0);  
+
+//  return (
+        
+// <main>
+//     {/* <BigcountNumber count={count} /> */}
+//     <button onClick={() => setcount(count + 1)}></button>Increment
+// </main>
+
+//     )
+// }
+
+
+
+
+function Counter() {
+  const [color, setColor] = useState("");
+}
+
+export default Counter
